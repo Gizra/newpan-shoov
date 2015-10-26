@@ -69,6 +69,10 @@ describe('Visual monitor testing', function() {
             '#views_slideshow_cycle_main_fp_slideshow-block_1',
             '.view-id-fp_mutagim_slideshow .view-content'
           ],
+        hide:
+          [
+            '.views-slideshow-controls-bottom .views-content-title'
+          ],
         screenWidth: selectedCaps == 'chrome' ? [1200] : undefined,
       }, resultsCallback)
       .call(done);
